@@ -16,7 +16,7 @@
   }
 
   .issueName {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #moreIssues .card {
@@ -25,6 +25,10 @@
   }
 
   #moreIssues h4 {
+    font-size: 18px;
+  }
+
+  #moreIssues .col-2 {
     font-size: 20px;
   }
 }
@@ -54,6 +58,10 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  #moreIssues .col-2 {
+    font-size: 25px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   #whyThisAppSeparator {
@@ -80,6 +88,10 @@
   #moreIssues .card {
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+
+  #moreIssues .col-2 {
+    font-size: 30px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -111,6 +123,10 @@
   #moreIssues h4 {
     font-size: 20px;
   }
+
+  #moreIssues .col-2 {
+    font-size: 27px;
+  }
 }
 @media (min-width: 1200px) {
   #whyThisAppSeparator {
@@ -136,6 +152,10 @@
 
   #moreIssues .card {
     margin-bottom: 20px;
+  }
+
+  #moreIssues .col-2 {
+    font-size: 30px;
   }
 }
 
