@@ -1,0 +1,33 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.headerTitle {
+  color: #375fb4;
+  font-size: 40px;
+  font-family: 'Fira Code', monospace;
+}
+
+@include media-breakpoint-only(xs) {
+  .headerTitle {
+    font-size: 32px;
+  }
+}
+
+@include media-breakpoint-only(sm) {
+  .headerTitle {
+    font-size: 36px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .headerTitle {
+    font-size: 38px;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+}
+
+@include media-breakpoint-only(xl) { 
+}

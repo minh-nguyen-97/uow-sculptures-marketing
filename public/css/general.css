@@ -1,0 +1,23 @@
+.headerTitle {
+  color: #375fb4;
+  font-size: 40px;
+  font-family: "Fira Code", monospace;
+}
+
+@media (max-width: 575.98px) {
+  .headerTitle {
+    font-size: 32px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .headerTitle {
+    font-size: 36px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .headerTitle {
+    font-size: 38px;
+  }
+}
+
+/*# sourceMappingURL=general.css.map */

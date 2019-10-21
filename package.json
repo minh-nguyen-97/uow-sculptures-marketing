@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "general-sass": "sass --watch src/scss/general.scss public/css/general.css",
     "navbar-sass": "sass --watch src/scss/navbar.scss public/css/navbar.css",
     "introduction-sass": "sass --watch src/scss/introduction.scss public/css/introduction.css",
+    "client-sass": "sass --watch src/scss/client.scss public/css/client.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
