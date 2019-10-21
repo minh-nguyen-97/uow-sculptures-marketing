@@ -1,0 +1,158 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+#clientSeparator {
+  margin-top: 200px;
+  visibility: hidden;
+}
+
+#clientHeader {
+  color: #375fb4;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#clientContent {
+  margin-top: 70px;
+}
+
+.keyContacts i {
+  color: #375fb4;
+}
+
+#keyContactsLabel {
+  color: #375fb4;
+}
+
+@include media-breakpoint-only(xs) {
+  #clientSeparator {
+    margin-top: 0px;
+  }
+
+  #clientContent {
+    margin-top: 40px;
+  }
+
+  #clientContainer {
+    margin-top: 80px;
+  }
+
+  #clientImg {
+    width: 300px;
+    height: 300px;
+  }
+
+  #clientInfo {
+    margin-top: 40px;
+  }
+
+  #clientHeader { 
+    margin-bottom: 14px;
+    font-size: 21px;
+  }
+
+  .keyContacts {
+    margin-top: 15px;
+  }
+
+}
+
+@include media-breakpoint-only(sm) {
+  #clientSeparator {
+    margin-top: 0px;
+  }
+
+  #clientContent {
+    margin-top: 50px;
+  }
+
+  #clientContainer {
+    margin-top: 90px;
+  }
+
+  #clientImg {
+    width: 320px;
+    height: 320px;
+  }
+
+  #clientInfo {
+    margin-top: 50px;
+  }
+
+  #clientHeader { 
+    margin-bottom: 14px;
+    font-size: 23px;
+  }
+
+  .keyContacts {
+    margin-top: 13px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  #clientSeparator {
+    margin-top: 0px;
+  }
+
+  #clientContent {
+    margin-top: 60px;
+  }
+
+  #clientContainer {
+    margin-top: 100px;
+  }
+
+  #clientImg {
+    width: 360px;
+    height: 360px;
+  }
+
+  #clientInfo {
+    margin-top: 60px;
+  }
+
+  #clientHeader { 
+    margin-bottom: 15px;
+    font-size: 26px;
+  }
+
+  .keyContacts {
+    margin-top: 15px;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+
+  #clientHeader { 
+    margin-bottom: 12px;
+    font-size: 24px;
+  }
+
+  #clientInfo {
+    padding-left: 30px;
+  }
+
+  #clientDesc {
+    font-size: 15.5px;
+  }
+
+  .keyContacts {
+    margin-top: 10px;
+  }
+  
+}
+
+@include media-breakpoint-only(xl) { 
+  #clientHeader { 
+    margin-bottom: 18px;
+    font-size: 27px;
+  }
+
+  #clientInfo {
+    padding-left: 70px;
+  }
+
+  .keyContacts {
+    margin-top: 20px;
+  }
+}

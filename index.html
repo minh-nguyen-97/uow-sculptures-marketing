@@ -19,21 +19,24 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/css/primary-button.css" />
     <link rel="stylesheet" href="./public/css/secondary-button.css" />
 
     <!-- Custom SCSS -->
+    <link rel="stylesheet" href="./public/css/general.css" />
     <link rel="stylesheet" href="./public/css/navbar.css" />
     <link rel="stylesheet" href="./public/css/introduction.css" />
+    <link rel="stylesheet" href="./public/css/client.css" />
 
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#brandingPhilosophy">
           <img id="brandLogo" src="./public/images/nucleus_logo.JPG"/>
           <span id="brandName" class="align-middle">NUCLEUS</span>
         </a>
@@ -150,7 +153,7 @@
               </div>
           </div>
 
-          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-sm-center">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-center">
             <div id="landingPage">
               <img
                 id="landingPageImage"
@@ -164,6 +167,68 @@
       </div>
     </div>
 
+    <!-- Client -->
+    <hr id="clientSeparator" />
+
+    <div id="clientContainer" class="container">
+      <div id="clientHeaderTitle" class="text-center headerTitle">Our Client</div>
+      <div id="clientContent" class="row">
+        <div class="col-12 col-lg-5 col-xl-5 text-center">
+          <img id="clientImg" src="./public/images/ArtCollection_Logo.PNG" class="img-fluid" />
+        </div>
+        <div id="clientInfo" class="col-12 col-lg-7 col-xl-7">
+          <div id="clientHeader" class="text-center text-lg-left">
+            University of Wollongong Art Collection
+          </div>
+          <p id="clientDesc" class="text-justify font-italic">
+            The University of Wollongong Art Collection (UOWAC) has been a part
+            of the University of Wollongong since the 1960s. Today the
+            collection comprises over 5000 individual works ranging from
+            paintings, prints, ceramics, textiles and a number of outdoor
+            sculptures. Art works are displayed across several campus locations
+            including UOW's main Wollongong campus, Innovation Campus, Nowra,
+            Bateman's Bay, Bega, Moss Vale, Loftus and the Sydney Business
+            School. UOWAC aims to collect and care for works of art with
+            significance to the University and wider Illawarra region. Art is an
+            integral part of campus life for students, staff, the local
+            community and wider art lovers who want to enjoy the collection.
+          </p>
+          <div class="row keyContacts">
+            <div id="keyContactsLabel" class="col-2 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+              Key Contacts:
+            </div>
+            <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 text-right">
+                <i class="fas fa-user-tie"></i>
+            </div>
+            <div class="col-9 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <div class="directClientNameRole font-weight-bold">
+                  Karen Cass - The Collection Manager
+                </div>
+                <a href="mailto:kcass@uow.edu.au?subject=UOWAC Sculptures App" target="_top">
+                  kcass@uow.edu.au
+                </a>
+            </div>
+          </div>
+
+          <div class="row keyContacts">
+            <div class="col-2 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+            </div>
+            <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 text-right">
+                <i class="fas fa-user-tie"></i>
+            </div>
+            <div class="col-9 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <div class="directClientNameRole font-weight-bold">
+                  Janise Miechel – The Collection Coordinator
+                </div>
+                <a href="mailto:janise@uow.edu.au?subject=UOWAC Sculptures App" target="_top">
+                    janise@uow.edu.au
+                </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
