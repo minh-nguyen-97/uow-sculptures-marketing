@@ -1,0 +1,158 @@
+#brandingPhilosophy {
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #375fb4, #b83f63);
+}
+
+#introductionText h1 {
+  font-weight: 900;
+  font-family: "Dosis", sans-serif;
+}
+
+#introductionDesc {
+  word-spacing: 2px;
+  font-family: "Lato", sans-serif;
+}
+
+#startExploring {
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 575.98px) {
+  #landingPageImage {
+    width: 370px;
+    height: 580px;
+  }
+
+  #introductionText h1 {
+    font-size: 40px;
+  }
+
+  #introductionDesc {
+    padding-top: 15px;
+    font-size: 16px;
+  }
+
+  #startExploring {
+    font-size: 16px;
+  }
+
+  #introductionText {
+    padding-top: 70px;
+  }
+
+  #introductionDesc .row {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #landingPageImage {
+    width: 400px;
+    height: 630px;
+  }
+
+  #introductionText h1 {
+    font-size: 45px;
+  }
+
+  #introductionDesc {
+    padding-top: 18px;
+    font-size: 17px;
+  }
+
+  #startExploring {
+    font-size: 17px;
+  }
+
+  #introductionText {
+    padding-top: 80px;
+  }
+
+  #introductionDesc .row {
+    padding-top: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #landingPageImage {
+    width: 450px;
+    height: 700px;
+  }
+
+  #introductionText h1 {
+    font-size: 50px;
+  }
+
+  #introductionDesc {
+    padding-top: 20px;
+    font-size: 18px;
+  }
+
+  #introductionText {
+    padding-top: 90px;
+  }
+
+  #introductionDesc .row {
+    padding-top: 18px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #landingPageImage {
+    width: 430px;
+    height: 680px;
+  }
+
+  #brandingPhilosophy {
+    height: 560px;
+  }
+
+  #introductionText h1 {
+    font-size: 50px;
+  }
+
+  #introductionDesc {
+    padding-top: 20px;
+    font-size: 18px;
+  }
+
+  #introductionText {
+    padding-top: 100px;
+  }
+
+  #introductionDesc .row {
+    padding-top: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  #landingPage {
+    padding-left: 100px;
+  }
+
+  #landingPageImage {
+    width: 450px;
+    height: 700px;
+  }
+
+  #brandingPhilosophy {
+    height: 560px;
+  }
+
+  #introductionText h1 {
+    font-size: 50px;
+  }
+
+  #introductionDesc {
+    padding-top: 20px;
+    font-size: 18px;
+  }
+
+  #introductionText {
+    padding-top: 100px;
+  }
+
+  #introductionDesc .row {
+    padding-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=introduction.css.map */
