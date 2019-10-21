@@ -55,6 +55,10 @@
     margin-top: 15px;
   }
 
+  #keyContactsLabel { 
+    margin-bottom: 20px;
+  }
+
 }
 
 @include media-breakpoint-only(sm) {

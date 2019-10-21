@@ -50,6 +50,10 @@
   .keyContacts {
     margin-top: 15px;
   }
+
+  #keyContactsLabel {
+    margin-bottom: 20px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   #clientSeparator {
