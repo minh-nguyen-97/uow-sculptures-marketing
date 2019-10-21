@@ -1,0 +1,126 @@
+#brandName {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#brandLogo {
+  border: whitesmoke solid 2px;
+}
+
+#navbarNav {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+.dropdown-item:hover {
+  background-color: #0c2340;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #fafafa;
+}
+
+@media (max-width: 575.98px) {
+  #brandLogo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  #brandName {
+    font-size: 25px;
+  }
+
+  #navbarNav > .mx-auto > li {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  #navbarNav > .ml-auto {
+    margin-top: 15px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #brandLogo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  #brandName {
+    font-size: 25px;
+  }
+
+  #navbarNav > .mx-auto > li {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  #navbarNav > .ml-auto {
+    margin-top: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #brandLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  #navbarNav > .mx-auto > li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #navbarNav > .ml-auto {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #brandLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dropdown-item {
+    height: 30px;
+  }
+
+  #navbarNav > .mx-auto > li {
+    margin-left: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  #brandLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  #navbarNav {
+    font-size: 16px;
+  }
+
+  .dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dropdown-item {
+    height: 36px;
+  }
+
+  #navbarNav > .mx-auto > li {
+    margin-left: 30px;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */
