@@ -7,12 +7,18 @@
     
     <title>UOWAC Sculptures Marketing Website</title>
 
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/81416c8099.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Google Fonts API -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/css/primary-button.css" />
@@ -20,11 +26,12 @@
 
     <!-- Custom SCSS -->
     <link rel="stylesheet" href="./public/css/navbar.css" />
+    <link rel="stylesheet" href="./public/css/introduction.css" />
 
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img id="brandLogo" src="./public/images/nucleus_logo.JPG"/>
@@ -88,7 +95,74 @@
       
     </nav>
 
-    <!--  -->
+    <!-- Introduction -->
+    <div id="brandingPhilosophy">
+      <div id="introduction" class="container text-white">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div id="introductionText">
+                <h1 class="text-center text-lg-left">UOW Sculptures App</h1>
+                <div id="introductionDesc">
+                  <p class="text-justify text-center text-lg-left">
+                    A multi-functional cross-platform mobile application for users
+                    to browse information about University of Wollongong Art
+                    Collection (UOWAC) outdoor sculptures.
+                  </p>
+
+                  <!-- List -->
+                  <div class="row">
+                    <div class="col-3 col-sm-4 col-md-4 col-lg-1 col-xl-1 text-right">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="col-9 col-sm-8 col-md-8 col-lg-11 col-xl-11 ">
+                        Integrated map and navigation
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-3 col-sm-4 col-md-4 col-lg-1 col-xl-1 text-right">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="col-9 col-sm-8 col-md-8 col-lg-11 col-xl-11 ">
+                        Real-time push notifications
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-3 col-sm-4 col-md-4 col-lg-1 col-xl-1 text-right">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="col-9 col-sm-8 col-md-8 col-lg-11 col-xl-11 ">
+                        Social engagement
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-3 col-sm-4 col-md-4 col-lg-0 col-xl-0 text-right">
+                        
+                    </div>
+                    <div class="col-9 col-sm-8 col-md-8 col-lg-12 col-xl-12 ">
+                        <a id="startExploring" class="btn btn-outline-light" href="#clientSeparator">Start Exploring</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-sm-center">
+            <div id="landingPage">
+              <img
+                id="landingPageImage"
+                src="./public/images/UI/Iphone X - Splash Screen.png"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

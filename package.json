@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "navbar-sass": "sass --watch src/scss/navbar.scss public/css/navbar.css",
+    "introduction-sass": "sass --watch src/scss/introduction.scss public/css/introduction.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
