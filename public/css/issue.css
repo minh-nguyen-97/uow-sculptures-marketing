@@ -1,0 +1,142 @@
+.text-warning {
+  color: orange !important;
+}
+
+@media (max-width: 575.98px) {
+  #whyThisAppSeparator {
+    margin-top: 80px;
+  }
+
+  #problemContainer {
+    margin-top: 70px;
+  }
+
+  #problemContent {
+    margin-top: 60px;
+  }
+
+  .issueName {
+    font-size: 20px;
+  }
+
+  #moreIssues .card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #moreIssues h4 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #whyThisAppSeparator {
+    margin-top: 90px;
+  }
+
+  #problemContainer {
+    margin-top: 80px;
+  }
+
+  #problemContent {
+    margin-top: 60px;
+  }
+
+  .issueName {
+    font-size: 25px;
+  }
+
+  #issueImg {
+    width: 360px;
+    height: 560px;
+  }
+
+  #moreIssues .card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #whyThisAppSeparator {
+    margin-top: 100px;
+  }
+
+  #problemContainer {
+    margin-top: 90px;
+  }
+
+  #problemContent {
+    margin-top: 60px;
+  }
+
+  .issueName {
+    font-size: 25px;
+  }
+
+  #issueImg {
+    width: 360px;
+    height: 560px;
+  }
+
+  #moreIssues .card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #whyThisAppSeparator {
+    margin-top: 130px;
+  }
+
+  #problemContainer {
+    margin-top: 100px;
+  }
+
+  #problemContent {
+    margin-top: 70px;
+  }
+
+  .issueName {
+    font-size: 20px;
+  }
+
+  #issueImg {
+    width: 300px;
+    height: 500px;
+  }
+
+  #moreIssues .card {
+    margin-bottom: 23px;
+  }
+
+  #moreIssues h4 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  #whyThisAppSeparator {
+    margin-top: 130px;
+  }
+
+  #problemContainer {
+    margin-top: 100px;
+  }
+
+  #problemContent {
+    margin-top: 70px;
+  }
+
+  .issueName {
+    font-size: 23px;
+  }
+
+  #issueImg {
+    width: 300px;
+    height: 510px;
+  }
+
+  #moreIssues .card {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=issue.css.map */
