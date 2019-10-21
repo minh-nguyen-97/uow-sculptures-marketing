@@ -1,0 +1,182 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.text-branding {
+  color: #375fb4;
+}
+
+@include media-breakpoint-only(xs) {
+  #whyContainer {
+    margin-top: 80px;
+  }
+
+  .reasonIcon {
+    font-size: 25px;
+  }
+
+  .reasonHeader {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+
+  .reasonRow {
+    .text-muted {
+      font-size: 15px;
+    }
+  }
+
+  .reason {
+    margin-bottom: 30px;
+  }
+
+  #easyToUseCompetenceRow {
+    display: none;
+  }
+
+  #socialCompetenceRow {
+    display: none;
+  }
+}
+
+@include media-breakpoint-only(sm) {
+  #whyContainer {
+    margin-top: 90px;
+  }
+
+  #whyImg {
+    width: 390px;
+    height: 600px;
+  }
+
+  .reasonIcon {
+    font-size: 40px;
+  }
+
+  .reasonHeader {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .reasonRow {
+    .text-muted {
+      font-size: 16px;
+    }
+  }
+
+  .reason {
+    margin-bottom: 30px;
+  }
+
+  #easyToUseCompetenceRow {
+    display: none;
+  }
+
+  #socialCompetenceRow {
+    display: none;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  #whyContainer {
+    margin-top: 100px;
+  }
+
+  #whyImg {
+    width: 390px;
+    height: 600px;
+    margin-bottom: 20px;
+  }
+
+  .reasonIcon {
+    font-size: 50px;
+  }
+
+  .reasonHeader {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .reasonRow {
+    margin-bottom: 60px;
+    .text-muted {
+      font-size: 16px;
+    }
+  }
+
+  #socialCompetenceRow {
+    display: block;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  #whyContainer {
+    margin-top: 100px;
+  }
+
+  #whyContent {
+    margin-top: 90px;
+  }
+
+  #whyImg {
+    height: 560px;
+    margin-left: -30px;
+    margin-top: -70px;
+  }
+
+  .reasonIcon {
+    font-size: 40px;
+  }
+
+  .reasonHeader {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .reasonRow {
+    margin-bottom: 60px;
+    .text-muted {
+      font-size: 15px;
+    }
+  }
+
+  #socialCompetenceRow {
+    display: block;
+  }
+}
+
+@include media-breakpoint-only(xl) { 
+  #whyContainer {
+    margin-top: 100px;
+  }
+
+  #whyContent {
+    margin-top: 90px;
+  }
+
+  #whyImg {
+    height: 560px;
+    margin-left: -30px;
+    margin-top: -70px;
+  }
+
+  .reasonIcon {
+    font-size: 50px;
+  }
+
+  .reasonHeader {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .reasonRow {
+    margin-bottom: 60px;
+    .text-muted {
+      font-size: 16px;
+    }
+  }
+
+  #socialCompetenceRow {
+    display: none;
+  }
+}
