@@ -34,7 +34,7 @@
   }
   #UICarouselSingle img {
     width: 350px;
-    height: 560px;
+    height: 100%;
   }
   #UICarouselSingle li {
     background-color: #aca4a4;
