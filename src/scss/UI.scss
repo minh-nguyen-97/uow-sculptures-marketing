@@ -1,0 +1,220 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+#UICarouselSingle {
+  .fa-chevron-circle-left {
+    color: #0C2340
+  }
+
+  .fa-chevron-circle-right {
+    color: #0C2340
+  }
+}
+
+#UICarouselDouble {
+  .fa-chevron-circle-left {
+    color: #0C2340
+  }
+
+  .fa-chevron-circle-right {
+    color: #0C2340
+  }
+}
+
+@include media-breakpoint-only(xs) {
+  #UISeparator {
+    margin-top: 60px;
+  }
+
+  #UIContainer {
+    margin-top: 80px;
+  }
+
+  #UICarouselSingle {
+    height: 770px;
+    background-color: #f5fafd;
+    border-radius: 30px;
+    margin-top: 60px;
+
+    .UIDesc {
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: -60px;
+    }
+
+    li {
+      background-color: rgb(172, 164, 164);
+    }
+
+    li.active {
+      background-color: #0c2340;
+    }
+
+    .fa-chevron-circle-left {
+      font-size: 20px;
+    }
+  
+    .fa-chevron-circle-right {
+      font-size: 20px;
+    }
+  }
+}
+
+@include media-breakpoint-only(sm) {
+  #UISeparator {
+    margin-top: 60px;
+  }
+
+  #UIContainer {
+    margin-top: 80px;
+  }
+
+  #UICarouselSingle {
+    height: 660px;
+    background-color: #f5fafd;
+    border-radius: 30px;
+    margin-top: 60px;
+
+    img {
+      width: 350px;
+      height: 560px;
+    }
+
+    .UIDesc {
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: -35px;
+    }
+
+    li {
+      background-color: rgb(172, 164, 164);
+    }
+
+    li.active {
+      background-color: #0c2340;
+    }
+
+    .fa-chevron-circle-left {
+      font-size: 22px;
+    }
+  
+    .fa-chevron-circle-right {
+      font-size: 22px;
+    }
+  }
+}
+
+@include media-breakpoint-only(md) {
+  #UISeparator {
+    margin-top: 60px;
+  }
+
+  #UIContainer {
+    margin-top: 90px;
+  }
+
+  #UICarouselSingle {
+    height: 680px;
+    background-color: #f5fafd;
+    border-radius: 30px;
+    margin-top: 60px;
+
+    img {
+      width: 390px;
+      height: 600px;
+    }
+
+    .UIDesc {
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: -39px;
+    }
+
+    li {
+      background-color: rgb(172, 164, 164);
+    }
+
+    li.active {
+      background-color: #0c2340;
+    }
+
+    .fa-chevron-circle-left {
+      font-size: 25px;
+    }
+  
+    .fa-chevron-circle-right {
+      font-size: 25px;
+    }
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  #UISeparator {
+    margin-top: 80px;
+  }
+
+  #UIContainer {
+    margin-top: 80px;
+  }
+
+  #UICarouselDouble {
+    height: 650px;
+    background-color: #f5fafd;
+    border-radius: 30px;
+    margin-top: 50px;
+    img {
+      width: 390px;
+      height: 600px;
+    }
+
+    .UIDesc {
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: -36px;
+    }
+
+    li {
+      background-color: rgb(172, 164, 164);
+    }
+
+    li.active {
+      background-color: #0c2340;
+    }
+  }
+}
+
+@include media-breakpoint-only(xl) { 
+  #UISeparator {
+    margin-top: 90px;
+  }
+
+  #UIContainer {
+    margin-top: 90px;
+  }
+
+  #UICarouselDouble {
+    height: 700px;
+    background-color: #f5fafd;
+    border-radius: 30px;
+    margin-top: 50px;
+    img {
+      width: 390px;
+      height: 600px;
+    }
+
+    .UIDesc {
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: -36px;
+    }
+
+    li {
+      background-color: rgb(172, 164, 164);
+    }
+
+    li.active {
+      background-color: #0c2340;
+    }
+  }
+}

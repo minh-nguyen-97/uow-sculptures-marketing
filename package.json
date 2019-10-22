@@ -10,6 +10,7 @@
     "client-sass": "sass --watch src/scss/client.scss public/css/client.css",
     "issue-sass": "sass --watch src/scss/issue.scss public/css/issue.css",
     "why-this-app-sass": "sass --watch src/scss/why-this-app.scss public/css/why-this-app.css",
+    "UI-sass": "sass --watch src/scss/UI.scss public/css/UI.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
