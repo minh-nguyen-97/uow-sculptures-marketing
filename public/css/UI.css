@@ -22,48 +22,19 @@
   }
 
   #UICarouselSingle {
-    height: 770px;
+    height: 650px;
     background-color: #f5fafd;
     border-radius: 30px;
     margin-top: 60px;
   }
   #UICarouselSingle .UIDesc {
-    font-size: 18px;
-    font-family: "Montserrat", sans-serif;
-    margin-top: -40px;
-  }
-  #UICarouselSingle li {
-    background-color: #aca4a4;
-  }
-  #UICarouselSingle li.active {
-    background-color: #0c2340;
-  }
-  #UICarouselSingle .fa-chevron-circle-left {
-    font-size: 20px;
-  }
-  #UICarouselSingle .fa-chevron-circle-right {
-    font-size: 20px;
-  }
-}
-@media screen and (max-device-width: 480px) {
-  #UISeparator {
-    margin-top: 60px;
-  }
-
-  #UIContainer {
-    margin-top: 80px;
-  }
-
-  #UICarouselSingle {
-    height: 500px;
-    background-color: #f5fafd;
-    border-radius: 30px;
-    margin-top: 60px;
-  }
-  #UICarouselSingle .UIDesc {
-    font-size: 15px;
+    font-size: 16px;
     font-family: "Montserrat", sans-serif;
     margin-top: -20px;
+  }
+  #UICarouselSingle img {
+    width: 350px;
+    height: 560px;
   }
   #UICarouselSingle li {
     background-color: #aca4a4;
@@ -98,7 +69,7 @@
     height: 560px;
   }
   #UICarouselSingle .UIDesc {
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Montserrat", sans-serif;
     margin-top: -35px;
   }
