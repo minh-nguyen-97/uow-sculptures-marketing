@@ -49,6 +49,11 @@
     font-size: 20px;
   }
 }
+@media only screen and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  #UICarouselSingle {
+    height: 520px;
+  }
+}
 @media (min-width: 576px) and (max-width: 767.98px) {
   #UISeparator {
     margin-top: 60px;

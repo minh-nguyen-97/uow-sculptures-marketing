@@ -67,6 +67,12 @@
   }
 }
 
+@media only screen and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  #UICarouselSingle {
+    height: 520px;
+  }
+}
+
 @include media-breakpoint-only(sm) {
   #UISeparator {
     margin-top: 60px;
