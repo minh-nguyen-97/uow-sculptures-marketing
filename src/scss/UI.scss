@@ -32,7 +32,46 @@
   }
 
   #UICarouselSingle {
-    height: 680px;
+    height: 770px;
+    background-color: #f5fafd;
+    border-radius: 30px;
+    margin-top: 60px;
+
+    .UIDesc {
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: -40px;
+    }
+
+    li {
+      background-color: rgb(172, 164, 164);
+    }
+
+    li.active {
+      background-color: #0c2340;
+    }
+
+    .fa-chevron-circle-left {
+      font-size: 20px;
+    }
+  
+    .fa-chevron-circle-right {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  #UISeparator {
+    margin-top: 60px;
+  }
+
+  #UIContainer {
+    margin-top: 80px;
+  }
+
+  #UICarouselSingle {
+    height: 630px;
     background-color: #f5fafd;
     border-radius: 30px;
     margin-top: 60px;
@@ -40,7 +79,7 @@
     .UIDesc {
       font-size: 15px;
       font-family: 'Montserrat', sans-serif;
-      margin-top: -40px;
+      margin-top: -20px;
     }
 
     li {
