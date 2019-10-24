@@ -1,0 +1,214 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@include media-breakpoint-only(xs) {
+  #endUsersSeparator {
+    margin-top: 80px;
+  }
+
+  #endUsersContainer {
+    margin-top: 80px;
+  }
+
+  #endUsersContent {
+    margin-top: 80px;
+  }
+
+  #endUsersDetails {
+
+    margin-top: 30px;
+
+    .fa-user-circle {
+      color: #375fb4;
+      font-size: 30px;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 25px;
+      // font-family: 'Dosis', sans-serif;
+      // letter-spacing: 2px;
+    }
+
+    h5 {
+      margin-top: 5px;
+      font-size: 15px;
+      font-family: 'Oxygen', sans-serif;
+    }
+
+    .card {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@include media-breakpoint-only(sm) {
+  #endUsersSeparator {
+    margin-top: 90px;
+  }
+
+  #endUsersContainer {
+    margin-top: 80px;
+  }
+
+  #endUsersContent {
+    margin-top: 80px;
+  }
+
+  #endUsersDetails {
+
+    margin-top: 40px;
+
+    .fa-user-circle {
+      color: #375fb4;
+      font-size: 50px;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 27px;
+      // font-family: 'Dosis', sans-serif;
+      // letter-spacing: 2px;
+    }
+
+    h5 {
+      margin-top: 5px;
+      font-size: 16px;
+      font-family: 'Oxygen', sans-serif;
+    }
+
+    .card {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@include media-breakpoint-only(md) {
+
+  #endUsersSeparator {
+    margin-top: 100px;
+  }
+
+  #endUsersContainer {
+    margin-top: 90px;
+  }
+
+  #endUsersContent {
+    margin-top: 90px;
+  }
+
+  #endUsersDetails {
+
+    margin-top: 50px;
+
+    .fa-user-circle {
+      color: #375fb4;
+      font-size: 50px;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 30px;
+      // font-family: 'Dosis', sans-serif;
+      // letter-spacing: 2px;
+    }
+
+    h5 {
+      margin-top: 5px;
+      font-size: 17px;
+      font-family: 'Oxygen', sans-serif;
+    }
+
+    .card {
+      margin-bottom: 50px;
+    }
+  }
+
+
+}
+
+@include media-breakpoint-only(lg) {
+  #endUsersSeparator {
+    margin-top: 150px;
+  }
+
+  #endUsersContainer {
+    margin-top: 100px;
+  }
+
+  #endUsersContent {
+    margin-top: 90px;
+  }
+
+  #endUsersDetails {
+    padding-left: 70px;
+
+    .fa-user-circle {
+      color: #375fb4;
+      font-size: 40px;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 25px;
+      // font-family: 'Dosis', sans-serif;
+      // letter-spacing: 2px;
+    }
+
+    h5 {
+      margin-top: 5px;
+      font-size: 15px;
+      font-family: 'Oxygen', sans-serif;
+    }
+
+    .card {
+      margin-bottom: 28px;
+    }
+  }
+
+}
+
+@include media-breakpoint-only(xl) { 
+  #endUsersSeparator {
+    margin-top: 150px;
+  }
+
+  #endUsersContainer {
+    margin-top: 100px;
+  }
+
+  #endUsersContent {
+    margin-top: 90px;
+  }
+
+  #endUsersImg {
+    width: 400px;
+  }
+
+  #endUsersDetails {
+    padding-left: 90px;
+
+    .fa-user-circle {
+      color: #375fb4;
+      font-size: 50px;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 25px;
+      // font-family: 'Dosis', sans-serif;
+      // letter-spacing: 2px;
+    }
+
+    h5 {
+      margin-top: 5px;
+      font-size: 15px;
+      font-family: 'Oxygen', sans-serif;
+    }
+
+    .card {
+      margin-bottom: 45px;
+    }
+  }
+}
