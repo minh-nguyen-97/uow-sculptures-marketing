@@ -21,6 +21,8 @@
   #endUsersDetails h3 {
     font-weight: 700;
     font-size: 25px;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
   }
   #endUsersDetails h5 {
     margin-top: 5px;
@@ -54,6 +56,8 @@
   #endUsersDetails h3 {
     font-weight: 700;
     font-size: 27px;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
   }
   #endUsersDetails h5 {
     margin-top: 5px;
@@ -85,8 +89,10 @@
     font-size: 50px;
   }
   #endUsersDetails h3 {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 30px;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
   }
   #endUsersDetails h5 {
     margin-top: 5px;
@@ -118,8 +124,10 @@
     font-size: 40px;
   }
   #endUsersDetails h3 {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 25px;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
   }
   #endUsersDetails h5 {
     margin-top: 5px;
@@ -144,7 +152,7 @@
   }
 
   #endUsersImg {
-    width: 400px;
+    width: 420px;
   }
 
   #endUsersDetails {
@@ -155,8 +163,10 @@
     font-size: 50px;
   }
   #endUsersDetails h3 {
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
   }
   #endUsersDetails h5 {
     margin-top: 5px;
@@ -164,7 +174,7 @@
     font-family: "Oxygen", sans-serif;
   }
   #endUsersDetails .card {
-    margin-bottom: 45px;
+    margin-bottom: 44px;
   }
 }
 
