@@ -1,0 +1,395 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@include media-breakpoint-only(xs) {
+  #membersSeparator {
+    margin-top: 70px;
+  }
+
+  #membersHeaderTitle {
+    margin-top: 70px;
+  }
+
+  #membersHeaderTitleDesc {
+    margin-top: -10px;
+    font-size: 16px;
+  }
+
+  #membersContent {
+    .card {
+      margin-top: 30px;
+      cursor: pointer;
+      border-radius: 8px;
+
+      :hover {
+        background-color: #f5fafd;
+      }
+    }
+
+    img {
+      width: 100px
+    }
+
+    .membersName {
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+    }
+
+    .membersRole {
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .membersMajor {
+      margin-top: 15px;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 10px;
+    }
+  }
+
+  #membersModal {
+    img {
+      width: 100px
+    }
+
+    .membersName {
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+    }
+    
+    #membersModalDetails {
+      margin-top: 30px;
+    }
+
+    .row {
+      margin-bottom: 20px;
+    }
+
+    .col-1 {
+      color: #375fb4;
+      font-size: 18px;
+    }
+
+  }
+}
+
+@include media-breakpoint-only(sm) {
+  #membersSeparator {
+    margin-top: 80px;
+  }
+
+  #membersHeaderTitle {
+    margin-top: 80px;
+  }
+
+  #membersHeaderTitleDesc {
+    margin-top: -10px;
+    font-size: 18px;
+  }
+
+  #membersContent {
+    .card {
+      margin-top: 30px;
+      cursor: pointer;
+      border-radius: 8px;
+
+      :hover {
+        background-color: #f5fafd;
+      }
+    }
+
+    img {
+      width: 120px
+    }
+
+    .membersName {
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 35px;
+      font-family: 'Dosis', sans-serif;
+    }
+
+    .membersRole {
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .membersMajor {
+      margin-top: 15px;
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 10px;
+    }
+  }
+
+  #membersModal {
+    img {
+      width: 120px
+    }
+
+    .membersName {
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 35px;
+      font-family: 'Dosis', sans-serif;
+    }
+    
+    #membersModalDetails {
+      margin-top: 30px;
+    }
+
+    .row {
+      margin-bottom: 20px;
+    }
+
+    .col-1 {
+      color: #375fb4;
+      font-size: 18px;
+    }
+
+  }
+
+}
+
+@include media-breakpoint-only(md) {
+  #membersSeparator {
+    margin-top: 90px;
+  }
+
+  #membersHeaderTitle {
+    margin-top: 90px;
+  }
+
+  #membersHeaderTitleDesc {
+    margin-top: -10px;
+    font-size: 19px;
+  }
+
+  #membersContent {
+    .card {
+      margin-top: 30px;
+      cursor: pointer;
+      border-radius: 8px;
+
+      :hover {
+        background-color: #f5fafd;
+      }
+    }
+
+    img {
+      width: 110px
+    }
+
+    .membersName {
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+    }
+
+    .membersRole {
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 19px;
+    }
+
+    .membersMajor {
+      margin-top: 15px;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 10px;
+    }
+  }
+
+  #membersModal {
+    img {
+      width: 110px
+    }
+
+    .membersName {
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+    }
+    
+    #membersModalDetails {
+      margin-top: 30px;
+    }
+
+    .row {
+      margin-bottom: 20px;
+    }
+
+    .col-1 {
+      color: #375fb4;
+      font-size: 18px;
+    }
+
+  }
+}
+
+@include media-breakpoint-only(lg) {
+
+  #membersSeparator {
+    margin-top: 100px;
+  }
+
+  #membersHeaderTitle {
+    margin-top: 90px;
+  }
+
+  #membersHeaderTitleDesc {
+    margin-top: -10px;
+    font-size: 19px;
+  }
+
+  #membersContent {
+
+    .card {
+      margin-top: 30px;
+      cursor: pointer;
+      border-radius: 8px;
+
+      :hover {
+        background-color: #f5fafd;
+      }
+    }
+
+    img {
+      width: 120px
+    }
+
+    .membersName {
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 32px;
+      font-family: 'Dosis', sans-serif;
+    }
+
+    .membersRole {
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .membersMajor {
+      margin-top: 15px;
+      font-size: 15.5px;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 10px;
+    }
+  }
+
+  #membersModal {
+    img {
+      width: 120px
+    }
+
+    .membersName {
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 32px;
+      font-family: 'Dosis', sans-serif;
+    }
+    
+    #membersModalDetails {
+      margin-top: 30px;
+    }
+
+    .row {
+      margin-bottom: 20px;
+    }
+
+    .col-1 {
+      color: #375fb4;
+      font-size: 20px;
+    }
+  }
+}
+
+@include media-breakpoint-only(xl) { 
+  #membersSeparator {
+    margin-top: 100px;
+  }
+
+  #membersHeaderTitle {
+    margin-top: 90px;
+  }
+
+  #membersHeaderTitleDesc {
+    margin-top: -10px;
+    font-size: 19px;
+  }
+
+  #membersContent {
+
+    .card {
+      margin-top: 50px;
+      cursor: pointer;
+      border-radius: 8px;
+
+      :hover {
+        background-color: #f5fafd;
+      }
+    }
+
+    img {
+      width: 120px
+    }
+
+    .membersName {
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 35px;
+      font-family: 'Dosis', sans-serif;
+    }
+
+    .membersRole {
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .membersMajor {
+      margin-top: 15px;
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 30px;
+    }
+  }
+
+  #membersModal {
+    img {
+      width: 120px
+    }
+
+    .membersName {
+      margin-top: 20px;
+      font-weight: 900;
+      font-size: 35px;
+      font-family: 'Dosis', sans-serif;
+    }
+    
+    #membersModalDetails {
+      margin-top: 30px;
+    }
+
+    .row {
+      margin-bottom: 20px;
+    }
+
+    .col-1 {
+      color: #375fb4;
+      font-size: 20px;
+    }
+  }
+}

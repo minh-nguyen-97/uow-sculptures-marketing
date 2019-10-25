@@ -12,6 +12,7 @@
     "why-this-app-sass": "sass --watch src/scss/why-this-app.scss public/css/why-this-app.css",
     "UI-sass": "sass --watch src/scss/UI.scss public/css/UI.css",
     "end-users-sass": "sass --watch src/scss/end-users.scss public/css/end-users.css",
+    "members-sass": "sass --watch src/scss/members.scss public/css/members.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
