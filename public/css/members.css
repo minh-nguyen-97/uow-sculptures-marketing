@@ -1,0 +1,317 @@
+@media (max-width: 575.98px) {
+  #membersSeparator {
+    margin-top: 70px;
+  }
+
+  #membersHeaderTitle {
+    margin-top: 70px;
+  }
+
+  #membersHeaderTitleDesc {
+    margin-top: -10px;
+    font-size: 16px;
+  }
+
+  #membersContent .card {
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  #membersContent .card :hover {
+    background-color: #f5fafd;
+  }
+  #membersContent img {
+    width: 100px;
+  }
+  #membersContent .membersName {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Dosis", sans-serif;
+  }
+  #membersContent .membersRole {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  #membersContent .membersMajor {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+  }
+
+  #membersModal img {
+    width: 100px;
+  }
+  #membersModal .membersName {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Dosis", sans-serif;
+  }
+  #membersModal #membersModalDetails {
+    margin-top: 30px;
+  }
+  #membersModal .row {
+    margin-bottom: 20px;
+  }
+  #membersModal .col-1 {
+    color: #375fb4;
+    font-size: 18px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #membersSeparator {
+    margin-top: 80px;
+  }
+
+  #membersHeaderTitle {
+    margin-top: 80px;
+  }
+
+  #membersHeaderTitleDesc {
+    margin-top: -10px;
+    font-size: 18px;
+  }
+
+  #membersContent .card {
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  #membersContent .card :hover {
+    background-color: #f5fafd;
+  }
+  #membersContent img {
+    width: 120px;
+  }
+  #membersContent .membersName {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 35px;
+    font-family: "Dosis", sans-serif;
+  }
+  #membersContent .membersRole {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  #membersContent .membersMajor {
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+  }
+
+  #membersModal img {
+    width: 120px;
+  }
+  #membersModal .membersName {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 35px;
+    font-family: "Dosis", sans-serif;
+  }
+  #membersModal #membersModalDetails {
+    margin-top: 30px;
+  }
+  #membersModal .row {
+    margin-bottom: 20px;
+  }
+  #membersModal .col-1 {
+    color: #375fb4;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #membersSeparator {
+    margin-top: 90px;
+  }
+
+  #membersHeaderTitle {
+    margin-top: 90px;
+  }
+
+  #membersHeaderTitleDesc {
+    margin-top: -10px;
+    font-size: 19px;
+  }
+
+  #membersContent .card {
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  #membersContent .card :hover {
+    background-color: #f5fafd;
+  }
+  #membersContent img {
+    width: 110px;
+  }
+  #membersContent .membersName {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Dosis", sans-serif;
+  }
+  #membersContent .membersRole {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 19px;
+  }
+  #membersContent .membersMajor {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+  }
+
+  #membersModal img {
+    width: 110px;
+  }
+  #membersModal .membersName {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Dosis", sans-serif;
+  }
+  #membersModal #membersModalDetails {
+    margin-top: 30px;
+  }
+  #membersModal .row {
+    margin-bottom: 20px;
+  }
+  #membersModal .col-1 {
+    color: #375fb4;
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #membersSeparator {
+    margin-top: 100px;
+  }
+
+  #membersHeaderTitle {
+    margin-top: 90px;
+  }
+
+  #membersHeaderTitleDesc {
+    margin-top: -10px;
+    font-size: 19px;
+  }
+
+  #membersContent .card {
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  #membersContent .card :hover {
+    background-color: #f5fafd;
+  }
+  #membersContent img {
+    width: 120px;
+  }
+  #membersContent .membersName {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 32px;
+    font-family: "Dosis", sans-serif;
+  }
+  #membersContent .membersRole {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  #membersContent .membersMajor {
+    margin-top: 15px;
+    font-size: 15.5px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+  }
+
+  #membersModal img {
+    width: 120px;
+  }
+  #membersModal .membersName {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 32px;
+    font-family: "Dosis", sans-serif;
+  }
+  #membersModal #membersModalDetails {
+    margin-top: 30px;
+  }
+  #membersModal .row {
+    margin-bottom: 20px;
+  }
+  #membersModal .col-1 {
+    color: #375fb4;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  #membersSeparator {
+    margin-top: 100px;
+  }
+
+  #membersHeaderTitle {
+    margin-top: 90px;
+  }
+
+  #membersHeaderTitleDesc {
+    margin-top: -10px;
+    font-size: 19px;
+  }
+
+  #membersContent .card {
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  #membersContent .card :hover {
+    background-color: #f5fafd;
+  }
+  #membersContent img {
+    width: 120px;
+  }
+  #membersContent .membersName {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 35px;
+    font-family: "Dosis", sans-serif;
+  }
+  #membersContent .membersRole {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  #membersContent .membersMajor {
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 30px;
+  }
+
+  #membersModal img {
+    width: 120px;
+  }
+  #membersModal .membersName {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 35px;
+    font-family: "Dosis", sans-serif;
+  }
+  #membersModal #membersModalDetails {
+    margin-top: 30px;
+  }
+  #membersModal .row {
+    margin-bottom: 20px;
+  }
+  #membersModal .col-1 {
+    color: #375fb4;
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=members.css.map */
