@@ -2,11 +2,117 @@
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
 
+/*-------- Animation ----------*/
+
+@mixin group_transition($property) {
+  -moz-transition: $property;
+  -webkit-transition: $property;
+  -o-transition: $property;
+  transition: $property;
+}
+
+@mixin group_transform_3d($property, $property_3d) {
+  -moz-transform: $property_3d;
+  -webkit-transform: $property_3d;
+  -o-transform: $property;
+  -ms-transform: $property;
+  transform: $property_3d;
+}
+
+@mixin group_transform($property) {
+  -moz-transform: $property;
+  -webkit-transform: $property;
+  -o-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+.animation-elements.slide-left.in-view,
+.animation-elements.slide-right.in-view {
+  opacity: 1;
+  @include group_transform_3d(translate(0px, 0px), translate3d(0px, 0px, 0px));
+}
+
+.animation-elements.slide-right {
+  opacity: 0;
+  @include group_transition(all 500ms linear);
+
+  @media all and (max-width: 1025px) {
+    @include group_transform_3d(
+      translate(-150px, 0px),
+      translate3d(-150px, 0px, 0px)
+    );
+  }
+
+  @media all and (min-width: 1025px) {
+    @include group_transform_3d(
+      translate(50px, 0px),
+      translate3d(50px, 0px, 0px)
+    );
+  }
+}
+
+.animation-elements.slide-left {
+  opacity: 0;
+  @include group_transition(all 500ms linear);
+  @include group_transform_3d(
+    translate(-150px, 0px),
+    translate3d(-150px, 0px, 0px)
+  );
+}
+
+.animation-elements.fade-out {
+  opacity: 0;
+  @include group_transition(all 500ms linear);
+  @include group_transform(scale(0.9));
+
+  &-1 {
+    @extend .fade-out;
+    transition-delay: 0.1s;
+  }
+
+  &-2 {
+    @extend .fade-out;
+    transition-delay: 0.2s;
+  }
+
+  &-3 {
+    @extend .fade-out;
+    transition-delay: 0.3s;
+  }
+
+  &-4 {
+    @extend .fade-out;
+    transition-delay: 0.4s;
+  }
+
+  &-5 {
+    @extend .fade-out;
+    transition-delay: 0.5s;
+  }
+
+  &-6 {
+    @extend .fade-out;
+    transition-delay: 0.6s;
+  }
+}
+
+.animation-elements.fade-out.in-view {
+  opacity: 1;
+  @include group_transform(scale(1));
+}
+
+.sticky-top {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 15px -7px;
+}
+
 .headerTitle {
   color: #375fb4;
   font-size: 40px;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
 }
+
+/*-----------------------------------------*/
 
 @include media-breakpoint-only(xs) {
   .headerTitle {
@@ -29,5 +135,5 @@
 @include media-breakpoint-only(lg) {
 }
 
-@include media-breakpoint-only(xl) { 
+@include media-breakpoint-only(xl) {
 }

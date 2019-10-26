@@ -111,7 +111,11 @@
     </nav>
 
     <!-- Introduction -->
-    <div id="brandingPhilosophy">
+    <section id="brandingPhilosophy">
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+      <div class="wave wave4"></div>
       <div id="introduction" class="container text-white">
         <div class="row">
           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -177,12 +181,12 @@
 
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Client -->
     <hr id="clientSeparator" />
 
-    <div id="clientContainer" class="container">
+    <div id="clientContainer" class="container animation-elements slide-left">
       <div id="clientHeaderTitle" class="text-center headerTitle">Our Client</div>
       <div id="clientContent" class="row">
         <div class="col-12 col-lg-5 col-xl-5 text-center">
@@ -247,20 +251,20 @@
       <hr id="whyThisAppSeparator" />
       
       <div id="problemContainer">
-        <div id="problemHeaderTitle" class="text-center headerTitle text-warning">Current Problems</div>
+        <div id="problemHeaderTitle" class="text-center headerTitle text-warning animation-elements fade-out">Current Problems</div>
         <div id="problemContent" class="row">
-          <div class="col-12 col-lg-5 col-xl-5">
+          <div class="col-12 col-lg-5 col-xl-5 animation-elements slide-left">
             <div class="card">
               <div class="card-header text-center text-warning issueName">
                 <i class="fas fa-exclamation-triangle"></i> Issues with Google My Maps
               </div>
               <div class="card-body text-center">
                 <img id="issueImg" src="./public/images/Google_My_Maps.PNG" class="img-fluid">
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-0 col-lg-1 col-xl-1"></div>
-          <div id="moreIssues" class="col-12 col-lg-6">
+            <div class="col-0 col-lg-1 col-xl-1"></div>
+          <div id="moreIssues" class="col-12 col-lg-6 animation-elements slide-right">
             <div class="card">
               <div class="card-body">
                   <div class="row">
@@ -348,16 +352,16 @@
 
     <!-- Why This App? -->
     <div id="whyContainer" class="container">
-      <div id="whyHeaderTitle" class="text-center headerTitle">Why This App?</div>
+      <div id="whyHeaderTitle" class="text-center headerTitle animation-elements fade-out">Why This App?</div>
       <div id="whyContent" class="row">
-        <div class="col-12 col-lg-5 col-xl-4 text-center">
+        <div class="col-12 col-lg-5 col-xl-4 text-center animation-elements slide-left">
             <img
             id="whyImg"
             src="./public/images/UI/Iphone X - Intro Screen.png"
             class="img-fluid"
             >
         </div>
-        <div class="col-12 col-lg-7 col-xl-8">
+        <div class="col-12 col-lg-7 col-xl-8 animation-elements slide-right">
           <div class="row reasonRow">
             <div class="col-12 col-md-6 col-lg-6">
               <div class="row reason">
@@ -432,7 +436,7 @@
 
     <div class="container">
       <hr id="UISeparator" />
-      <div id="UIContainer">
+      <div id="UIContainer" class="animation-elements slide-right">
         <div id="UIHeaderTitle" class="text-center headerTitle">Let's take a look at our app</div>
 
         <div id="UICarouselSingle" class="carousel slide d-block d-lg-none d-xl-none"  data-ride="carousel">
@@ -672,18 +676,18 @@
     <div class="container">
       <hr id="endUsersSeparator" />
       <div id="endUsersContainer">
-        <div id="endUsersHeaderTitle" class="headerTitle text-center">
+        <div id="endUsersHeaderTitle" class="headerTitle text-center animation-elements fade-out">
             <i class="fas fa-users"></i> Target audience
         </div>
 
         <div id="endUsersContent">
           <div class="row">
-            <div class="col-lg-5 col-xl-5 text-center">
+            <div class="col-lg-5 col-xl-5 text-center animation-elements slide-left">
               <img id="endUsersImg" src="./public/images/UOW_Logo.jpg" class="img-fluid d-none d-lg-block d-xl-block">
               <img id="endUsersImgHorizontal" src="./public/images/UOW_Logo_horizontal.jpg" class="img-fluid d-block d-lg-none d-xl-none">
             </div>
 
-            <div id="endUsersDetails" class="col-lg-7 col-xl-7">
+            <div id="endUsersDetails" class="col-lg-7 col-xl-7 animation-elements slide-right">
 
               <div class="card">
                 <div class="card-body">
@@ -736,7 +740,7 @@
     </div>
 
     <!-- Design Methodology: Kanban -->
-    <div class="container">
+    <div class="container animation-elements slide-left">
       <hr id="kanbanSeparator" />
       <div id="kanbanContainer">
         <div class="text-center headerTitle">
@@ -888,7 +892,7 @@
     </div>
 
     <!-- About Nucleus -->
-    <div class="container">
+    <div class="container animation-elements fade-out">
       <hr id="aboutUsSeparator" />
       <div id="aboutUsContainer">
         <div id="aboutUsHeaderTitle" class="headerTitle text-center">
@@ -930,7 +934,7 @@
     <div class="container">
       <hr id="membersSeparator" />
       <div id="membersContainer">
-        <div id="membersHeaderTitle" class="text-center">
+        <div id="membersHeaderTitle" class="text-center animation-elements slide-left">
           <p class="headerTitle">Meet Our Team</p>
           <p id="membersHeaderTitleDesc" class="text-muted">
             Our team is established with highly skilled and enthusiastic individuals from different backgrounds from University of Wollongong.
@@ -940,7 +944,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-6 col-xl-4">
               <div 
-                class="card"
+                class="card animation-elements fade-out-1"
                 data-toggle="modal" 
                 data-target="#membersModal"
                 data-imgsrc = "./public/images/Members/ThaoPham.jpg"
@@ -970,7 +974,7 @@
 
             <div class="col-md-6 col-lg-6 col-xl-4">
               <div 
-                class="card"
+                class="card animation-elements fade-out-2"
                 data-toggle="modal" 
                 data-target="#membersModal"
                 data-imgsrc = "./public/images/Members/LongHung.jpg"
@@ -1001,7 +1005,7 @@
 
             <div class="col-md-6 col-lg-6 col-xl-4">
               <div 
-                class="card"
+                class="card animation-elements fade-out-3"
                 data-toggle="modal" 
                 data-target="#membersModal"
                 data-imgsrc = "./public/images/Members/HieuChu.jpg"
@@ -1033,7 +1037,7 @@
 
             <div class="col-md-6 col-lg-6 col-xl-4">
               <div 
-                class="card"
+                class="card animation-elements fade-out-4"
                 data-toggle="modal" 
                 data-target="#membersModal"
                 data-imgsrc = "./public/images/Members/HoaiNam.jpg"
@@ -1065,13 +1069,13 @@
 
           <div class="col-md-6 col-lg-6 col-xl-4">
               <div 
-                class="card"
+                class="card animation-elements fade-out-5"
                 data-toggle="modal" 
                 data-target="#membersModal"
                 data-imgsrc = "./public/images/Members/NamJose.PNG"
                 data-membername = "NAM BUI"
-                data-majordesc = "I am a Computer Science student who are so passionate about designing user-friendly interfaces and bringing them to real life application. In modern application development, due to great and fast interaction with client, prototypes and front-end development play a very important role even before any back-end detail is started. Therefore, with my passion, I am determined to pursue a career in UX/UI design and front-end development."
-                data-roledesc = "For UOWAC Sculptures App, I designed and created all wireframes and high-fidelity prototype for the app. After getting approved from client, I dived right into create the real app by using my <a href='https://facebook.github.io/react-native/' target='_blank'>React Native</a> expertise. With continuous meetings and feedback from client, I have successfully built our cross-platform app  on <a href='https://expo.io/' target='_blank'>Expo</a> and connected it with our back-end API service. The app interfaces are user-friendly and easy to use with many features such as Integrated map (Open Street Map), social features (Facebook, Google) and push notifications for users."
+                data-majordesc = "I am a Computer Science Undergraduate who are so passionate about Front-End Development and designing user-friendly interfaces. I have hands-on experience using Javascript frameworks (React.JS and React Native, Redux, Hooks) and UI frameworks (Bootstrap, Material-UI) to develop mobile and web applications. Therefore, with my passion, I am determined to pursue a career in UX/UI Design and Front-End Development."
+                data-roledesc = "For UOWAC Sculptures App, I am the Main Designer for UI/UX Designer and Front-End Developer (Web & Mobile). I designed and created all wireframes and high-fidelity prototype for the app. After getting approved from client, I dived right into create the cross-platform app by using <a href='https://facebook.github.io/react-native/' target='_blank'>React Native</a>, <a href='https://github.com/reduxjs/redux' target='_blank'>Redux</a> and <a href='https://expo.io/' target='_blank'>Expo</a>. With continuous meetings and feedback from client, I have successfully built our cross-platform app on <a href='https://expo.io/' target='_blank'>Expo</a> and connected it with our Back-End API service. The app interfaces are user-friendly and easy to use with many features such as Integrated Map (Open Street Map), Geolocation, Social Features (Facebook, Google - Authorization, Like & Comment, Upload Image, Save Image) and Push Notifications for users. Besides, I am one of the contributors of UOWAC Marketing Website."
               >
                 <div class="card-body text-center">
 
@@ -1084,7 +1088,7 @@
                     </div>
   
                     <div class="membersRole">
-                      UI/UX Designer
+                      Font-End Developer <br/> UI/UX Designer
                     </div>
   
                     <div class="membersMajor text-muted">
@@ -1097,7 +1101,7 @@
 
             <div class="col-md-6 col-lg-6 col-xl-4">
               <div 
-                class="card" 
+                class="card animation-elements fade-out-6"
                 data-toggle="modal" 
                 data-target="#membersModal"
                 data-imgsrc = "./public/images/Members/MinhNguyen.PNG"
@@ -1132,7 +1136,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container animation-elements slide-right">
       <hr id="contactUsSeparator" />
       <div id="contactUsContainer">
         <div id="contactUsHeaderTitle" class="text-center">
@@ -1161,7 +1165,7 @@
               </div>
 
               <div class="text-center">
-                <button type="submit" class="btn btn-info">Send Message</button>
+                <button type="submit" class="btn btn-info">SEND MESSAGE</button>
               </div>
 
             </div>
