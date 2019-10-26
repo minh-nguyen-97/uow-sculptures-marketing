@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="referrer" content="origin">
     
     <title>UOWAC Sculptures Marketing Website</title>
 
@@ -39,6 +40,7 @@
     <link rel="stylesheet" href="./public/css/members.css" />
     <link rel="stylesheet" href="./public/css/kanban.css" />
     <link rel="stylesheet" href="./public/css/about-us.css" />
+    <link rel="stylesheet" href="./public/css/contact-us.css" />
 
   </head>
   <body>
@@ -1125,6 +1127,45 @@
             </div>
           </div>
 
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr id="contactUsSeparator" />
+      <div id="contactUsContainer">
+        <div id="contactUsHeaderTitle" class="text-center">
+          <img src="./public/images/contactUs.JPG" class="img-fluid">
+          <div class="headerTitle">
+            CONTACT US
+          </div>
+        </div>
+        <div id="contactUsContent">
+          <form method="POST" action="https://formspree.io/nucleus.uow.2019@gmail.com">
+            <div id="contactForm">
+
+              <div class="form-group">
+                <label for="contactName">Full name</label>
+                <input type="text" class="form-control" name="name" id="contactName" placeholder="Your name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Email address</label>
+                <input type="email" class="form-control" id="contactEmail" name="email" placeholder="Your email" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="contactMessage">Message</label>
+                <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your message"></textarea>
+              </div>
+
+              <div class="text-center">
+                <button type="submit" class="btn btn-info">Send Message</button>
+              </div>
+
+            </div>
+
+          </form>
         </div>
       </div>
     </div>
