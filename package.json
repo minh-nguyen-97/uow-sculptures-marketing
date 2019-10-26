@@ -16,6 +16,7 @@
     "kanban-sass": "sass --watch src/scss/kanban.scss public/css/kanban.css",
     "about-us-sass": "sass --watch src/scss/about-us.scss public/css/about-us.css",
     "contact-us-sass": "sass --watch src/scss/contact-us.scss public/css/contact-us.css",
+    "footer-sass": "sass --watch src/scss/footer.scss public/css/footer.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
