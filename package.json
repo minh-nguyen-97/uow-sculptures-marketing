@@ -14,6 +14,7 @@
     "end-users-sass": "sass --watch src/scss/end-users.scss public/css/end-users.css",
     "members-sass": "sass --watch src/scss/members.scss public/css/members.css",
     "kanban-sass": "sass --watch src/scss/kanban.scss public/css/kanban.css",
+    "about-us-sass": "sass --watch src/scss/about-us.scss public/css/about-us.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
