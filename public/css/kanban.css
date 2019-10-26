@@ -1,0 +1,228 @@
+#designMethodHeaderTitle {
+  color: black;
+}
+
+#kanbanHeaderTitle {
+  font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 700;
+  color: #0052cc;
+}
+
+@media (max-width: 575.98px) {
+  #kanbanSeparator {
+    margin-top: 60px;
+  }
+
+  #kanbanContainer {
+    margin-top: 60px;
+  }
+
+  #kanbanContent {
+    margin-top: 60px;
+  }
+  #kanbanContent .kanbanContentHeader {
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 650;
+    color: #0052cc;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  #kanbanContent .kanbanContentDesc {
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 17px;
+  }
+  #kanbanContent #kanbanDefinitionContainer {
+    margin-bottom: 50px;
+  }
+  #kanbanContent #kanbanDefinitionContainer .kanbanContentDesc {
+    line-height: 36px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer {
+    margin-bottom: 50px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer .row {
+    margin-bottom: 25px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer .col-sm-4 {
+    color: #0052cc;
+  }
+  #kanbanContent #kanbanBenefitsContainer .kanbanContentDesc .row {
+    margin-bottom: 25px;
+  }
+  #kanbanContent #kanbanBenefitsContainer .kanbanContentDesc .col-sm-4 {
+    color: #28a745;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #kanbanSeparator {
+    margin-top: 80px;
+  }
+
+  #kanbanContainer {
+    margin-top: 80px;
+  }
+
+  #kanbanContent {
+    margin-top: 80px;
+  }
+  #kanbanContent .kanbanContentHeader {
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 650;
+    color: #0052cc;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  #kanbanContent .kanbanContentDesc {
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 19px;
+  }
+  #kanbanContent #kanbanDefinitionContainer {
+    margin-bottom: 50px;
+  }
+  #kanbanContent #kanbanDefinitionContainer .kanbanContentDesc {
+    line-height: 36px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer {
+    margin-bottom: 50px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer .row {
+    margin-bottom: 25px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer .col-sm-4 {
+    color: #0052cc;
+  }
+  #kanbanContent #kanbanBenefitsContainer .kanbanContentDesc .row {
+    margin-bottom: 25px;
+  }
+  #kanbanContent #kanbanBenefitsContainer .kanbanContentDesc .col-sm-4 {
+    color: #28a745;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #kanbanSeparator {
+    margin-top: 100px;
+  }
+
+  #kanbanContainer {
+    margin-top: 100px;
+  }
+
+  #kanbanContent {
+    margin-top: 80px;
+  }
+  #kanbanContent .kanbanContentHeader {
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 650;
+    color: #0052cc;
+    font-size: 27px;
+    margin-bottom: 30px;
+  }
+  #kanbanContent .kanbanContentDesc {
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 19px;
+  }
+  #kanbanContent #kanbanDefinitionContainer {
+    margin-bottom: 30px;
+  }
+  #kanbanContent #kanbanDefinitionContainer .kanbanContentDesc {
+    line-height: 36px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer .row {
+    margin-bottom: 18px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer .col-md-2 {
+    color: #0052cc;
+  }
+  #kanbanContent #kanbanBenefitsContainer .kanbanContentDesc .row {
+    margin-bottom: 53px;
+  }
+  #kanbanContent #kanbanBenefitsContainer .kanbanContentDesc .col-md-3 {
+    color: #28a745;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #kanbanSeparator {
+    margin-top: 100px;
+  }
+
+  #kanbanContainer {
+    margin-top: 100px;
+  }
+
+  #kanbanContent {
+    margin-top: 80px;
+  }
+  #kanbanContent .kanbanContentHeader {
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 650;
+    color: #0052cc;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  #kanbanContent .kanbanContentDesc {
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 20px;
+  }
+  #kanbanContent #kanbanDefinitionContainer {
+    margin-bottom: 30px;
+  }
+  #kanbanContent #kanbanDefinitionContainer .kanbanContentDesc {
+    line-height: 40px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer .row {
+    margin-bottom: 19px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer .col-lg-2 {
+    color: #0052cc;
+  }
+  #kanbanContent #kanbanBenefitsContainer .kanbanContentDesc .row {
+    margin-bottom: 51px;
+  }
+  #kanbanContent #kanbanBenefitsContainer .kanbanContentDesc .col-lg-4 {
+    color: #28a745;
+  }
+}
+@media (min-width: 1200px) {
+  #kanbanSeparator {
+    margin-top: 100px;
+  }
+
+  #kanbanContainer {
+    margin-top: 100px;
+  }
+
+  #kanbanContent {
+    margin-top: 80px;
+  }
+  #kanbanContent .kanbanContentHeader {
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 650;
+    color: #0052cc;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  #kanbanContent .kanbanContentDesc {
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 20px;
+  }
+  #kanbanContent #kanbanDefinitionContainer {
+    margin-bottom: 30px;
+  }
+  #kanbanContent #kanbanDefinitionContainer .kanbanContentDesc {
+    line-height: 40px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer .row {
+    margin-bottom: 20px;
+  }
+  #kanbanContent #kanbanPrinciplesContainer .col-xl-2 {
+    color: #0052cc;
+  }
+  #kanbanContent #kanbanBenefitsContainer .kanbanContentDesc .row {
+    margin-bottom: 50px;
+  }
+  #kanbanContent #kanbanBenefitsContainer .kanbanContentDesc .col-xl-4 {
+    color: #28a745;
+  }
+}
+
+/*# sourceMappingURL=kanban.css.map */
