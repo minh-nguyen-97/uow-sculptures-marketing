@@ -1,0 +1,149 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+#visionSeparator {
+  visibility: hidden;
+}
+
+@include media-breakpoint-only(xs) {
+  #aboutUsSeparator {
+    margin-top: 60px;
+  }
+
+  #aboutUsContainer {
+    margin-top: 60px;
+  }
+
+  #aboutUsHeaderTitle {
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+  .aboutUsContentDesc {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+  }
+   #missionContainer {
+     margin-top: 60px;
+   }
+
+   #visionContainer {
+    margin-top: 60px;
+  }
+}
+
+@include media-breakpoint-only(sm) {
+  #aboutUsSeparator {
+    margin-top: 60px;
+  }
+
+  #aboutUsContainer {
+    margin-top: 60px;
+  }
+
+  #aboutUsHeaderTitle {
+    font-size: 41px;
+    font-weight: 900;
+  }
+
+  .aboutUsContentDesc {
+    font-size: 16.5px;
+    font-family: 'Lato', sans-serif;
+  }
+   #missionContainer {
+     margin-top: 60px;
+   }
+
+   #visionContainer {
+    margin-top: 70px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  #aboutUsSeparator {
+    margin-top: 70px;
+  }
+
+  #aboutUsContainer {
+    margin-top: 70px;
+  }
+
+  #aboutUsHeaderTitle {
+    font-size: 45px;
+    font-weight: 900;
+  }
+
+  .aboutUsContentDesc {
+    margin-left: 5%;
+    width: 90%;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+  }
+   #missionContainer {
+     margin-top: 60px;
+   }
+
+   #visionContainer {
+    margin-top: 70px;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  #aboutUsSeparator {
+    margin-top: 80px;
+  }
+
+  #aboutUsContainer {
+    margin-top: 80px;
+  }
+
+  #aboutUsHeaderTitle {
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .aboutUsContentDesc {
+    margin-left: 5%;
+    width: 90%;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+  }
+   #missionContainer {
+     margin-top: 80px;
+   }
+
+   #visionContainer {
+    margin-top: 90px;
+  }
+}
+
+@include media-breakpoint-only(xl) { 
+
+  #aboutUsSeparator {
+    margin-top: 80px;
+  }
+
+  #aboutUsContainer {
+    margin-top: 90px;
+  }
+
+  #aboutUsHeaderTitle {
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .aboutUsContentDesc {
+    margin-left: 10%;
+    width: 80%;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+  }
+   #missionContainer {
+     margin-top: 80px;
+   }
+
+   #visionContainer {
+    margin-top: 100px;
+  }
+}
