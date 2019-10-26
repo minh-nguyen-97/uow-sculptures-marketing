@@ -33,6 +33,11 @@
     margin-bottom: 30px;
   }
 }
+@media only screen and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) and (max-width: 480px) {
+  #endUsersDetails h3 {
+    letter-spacing: 1px;
+  }
+}
 @media (min-width: 576px) and (max-width: 767.98px) {
   #endUsersSeparator {
     margin-top: 90px;

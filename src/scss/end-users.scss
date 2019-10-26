@@ -43,6 +43,14 @@
   }
 }
 
+@media only screen and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) and (max-width: 480px) {
+  #endUsersDetails {
+    h3 {
+      letter-spacing: 1px;
+    }
+  }
+}
+
 @include media-breakpoint-only(sm) {
   #endUsersSeparator {
     margin-top: 90px;
