@@ -1,0 +1,166 @@
+#footerName {
+  color: white;
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@media (max-width: 575.98px) {
+  #footerContainer {
+    padding-top: 15px;
+    margin-top: 80px;
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #375fb4, #b83f63);
+  }
+
+  #footerLogo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+
+  #footerName {
+    font-size: 23px;
+  }
+
+  #socialContact {
+    margin-top: 6px;
+  }
+
+  #facebookContact {
+    color: white;
+    font-size: 25px;
+    margin-right: 8px;
+  }
+
+  #googleContact {
+    color: white;
+    font-size: 25px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #footerContainer {
+    padding-top: 20px;
+    margin-top: 80px;
+    height: 90px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #375fb4, #b83f63);
+  }
+
+  #footerLogo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  #footerName {
+    font-size: 25px;
+  }
+
+  #socialContact {
+    margin-top: 6px;
+  }
+
+  #facebookContact {
+    color: white;
+    font-size: 27px;
+    margin-right: 8px;
+  }
+
+  #googleContact {
+    color: white;
+    font-size: 27px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #footerContainer {
+    padding-top: 25px;
+    margin-top: 90px;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #375fb4, #b83f63);
+  }
+
+  #footerLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  #socialContact {
+    margin-top: 8px;
+  }
+
+  #facebookContact {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  #googleContact {
+    color: white;
+    font-size: 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #footerContainer {
+    padding-top: 25px;
+    margin-top: 90px;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #375fb4, #b83f63);
+  }
+
+  #footerLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  #socialContact {
+    margin-top: 10px;
+  }
+
+  #facebookContact {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  #googleContact {
+    color: white;
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  #footerContainer {
+    padding-top: 25px;
+    margin-top: 90px;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #375fb4, #b83f63);
+  }
+
+  #footerLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  #socialContact {
+    margin-top: 10px;
+  }
+
+  #facebookContact {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  #googleContact {
+    color: white;
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */
