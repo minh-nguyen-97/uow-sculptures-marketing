@@ -45,6 +45,18 @@
   #membersModal img {
     width: 100px;
   }
+  #membersModal .membersContact {
+    margin-top: 20px;
+  }
+  #membersModal #membersOutlook {
+    width: 30px;
+    height: 30px;
+  }
+  #membersModal #membersLinkedln {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
   #membersModal .membersName {
     margin-top: 20px;
     font-weight: 900;
@@ -109,6 +121,18 @@
   #membersModal img {
     width: 120px;
   }
+  #membersModal .membersContact {
+    margin-top: 20px;
+  }
+  #membersModal #membersOutlook {
+    width: 30px;
+    height: 30px;
+  }
+  #membersModal #membersLinkedln {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
   #membersModal .membersName {
     margin-top: 20px;
     font-weight: 900;
@@ -141,6 +165,7 @@
   }
 
   #membersContent .card {
+    height: 330px;
     margin-top: 30px;
     cursor: pointer;
     border-radius: 8px;
@@ -172,6 +197,18 @@
 
   #membersModal img {
     width: 110px;
+  }
+  #membersModal .membersContact {
+    margin-top: 20px;
+  }
+  #membersModal #membersOutlook {
+    width: 30px;
+    height: 30px;
+  }
+  #membersModal #membersLinkedln {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
   }
   #membersModal .membersName {
     margin-top: 20px;
@@ -205,6 +242,7 @@
   }
 
   #membersContent .card {
+    height: 350px;
     margin-top: 30px;
     cursor: pointer;
     border-radius: 8px;
@@ -236,6 +274,18 @@
 
   #membersModal img {
     width: 120px;
+  }
+  #membersModal .membersContact {
+    margin-top: 20px;
+  }
+  #membersModal #membersOutlook {
+    width: 30px;
+    height: 30px;
+  }
+  #membersModal #membersLinkedln {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
   }
   #membersModal .membersName {
     margin-top: 20px;
@@ -269,6 +319,7 @@
   }
 
   #membersContent .card {
+    height: 380px;
     margin-top: 50px;
     cursor: pointer;
     border-radius: 8px;
@@ -300,6 +351,18 @@
 
   #membersModal img {
     width: 120px;
+  }
+  #membersModal .membersContact {
+    margin-top: 20px;
+  }
+  #membersModal #membersOutlook {
+    width: 30px;
+    height: 30px;
+  }
+  #membersModal #membersLinkedln {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
   }
   #membersModal .membersName {
     margin-top: 20px;

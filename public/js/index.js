@@ -58,12 +58,21 @@ $(document).ready(function() {
     var membername = card.data("membername");
     var majordesc = card.data("majordesc");
     var roledesc = card.data("roledesc");
+    var outlook = card.data("outlook");
+    var linkedln = card.data("linkedln");
 
     var modal = $(this);
     modal.find("#membersModalImg").attr("src", imgsrc);
     modal.find(".membersName").text(membername);
     modal.find("#membersModalMajorDesc").html(majordesc);
     modal.find("#membersModalRoleDesc").html(roledesc);
+    modal.find('#membersOutlookLink').attr('href', `mailto:${outlook}`);
+    if (linkedln == "") {
+      modal.find('#membersLinkedlnLink').hide();
+    } else {
+      modal.find('#membersLinkedlnLink').show();
+      modal.find('#membersLinkedlnLink').attr('href', linkedln);
+    }
   });
 
   var $animation_elements = $(".animation-elements");
