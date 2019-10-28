@@ -66,12 +66,12 @@ $(document).ready(function() {
     modal.find(".membersName").text(membername);
     modal.find("#membersModalMajorDesc").html(majordesc);
     modal.find("#membersModalRoleDesc").html(roledesc);
-    modal.find('#membersOutlookLink').attr('href', `mailto:${outlook}`);
-    if (linkedln == "") {
-      modal.find('#membersLinkedlnLink').hide();
+    modal.find("#membersOutlookLink").attr("href", `mailto:${outlook}`);
+    if (!linkedln) {
+      modal.find("#membersLinkedlnLink").hide();
     } else {
-      modal.find('#membersLinkedlnLink').show();
-      modal.find('#membersLinkedlnLink').attr('href', linkedln);
+      modal.find("#membersLinkedlnLink").show();
+      modal.find("#membersLinkedlnLink").attr("href", linkedln);
     }
   });
 
