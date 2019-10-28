@@ -28,14 +28,14 @@
     }
 
     img {
-      width: 100px
+      width: 100px;
     }
 
     .membersName {
       margin-top: 20px;
       font-weight: 900;
       font-size: 30px;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
     }
 
     .membersRole {
@@ -47,7 +47,7 @@
     .membersMajor {
       margin-top: 15px;
       font-size: 15px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       margin-bottom: 10px;
       font-style: italic;
     }
@@ -55,7 +55,7 @@
 
   #membersModal {
     img {
-      width: 100px
+      width: 100px;
     }
 
     .membersContact {
@@ -63,23 +63,22 @@
     }
 
     #membersOutlook {
-      width: 30px;
-      height: 30px;
+      width: 20px;
+      height: 20px;
     }
 
     #membersLinkedln {
-      width: 30px;
-      height: 30px;
-      margin-right: 10px;
+      width: 20px;
+      height: 20px;
     }
 
     .membersName {
       margin-top: 20px;
       font-weight: 900;
       font-size: 30px;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
     }
-    
+
     #membersModalDetails {
       margin-top: 30px;
     }
@@ -92,7 +91,6 @@
       color: #375fb4;
       font-size: 15px;
     }
-
   }
 }
 
@@ -122,14 +120,14 @@
     }
 
     img {
-      width: 120px
+      width: 120px;
     }
 
     .membersName {
       margin-top: 20px;
       font-weight: 900;
       font-size: 35px;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
     }
 
     .membersRole {
@@ -141,7 +139,7 @@
     .membersMajor {
       margin-top: 15px;
       font-size: 16px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       margin-bottom: 10px;
       font-style: italic;
     }
@@ -149,7 +147,7 @@
 
   #membersModal {
     img {
-      width: 120px
+      width: 120px;
     }
 
     .membersContact {
@@ -157,23 +155,22 @@
     }
 
     #membersOutlook {
-      width: 30px;
-      height: 30px;
+      width: 20px;
+      height: 20px;
     }
 
     #membersLinkedln {
-      width: 30px;
-      height: 30px;
-      margin-right: 10px;
+      width: 20px;
+      height: 20px;
     }
 
     .membersName {
       margin-top: 20px;
       font-weight: 900;
       font-size: 35px;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
     }
-    
+
     #membersModalDetails {
       margin-top: 30px;
     }
@@ -186,9 +183,7 @@
       color: #375fb4;
       font-size: 18px;
     }
-
   }
-
 }
 
 @include media-breakpoint-only(md) {
@@ -218,14 +213,14 @@
     }
 
     img {
-      width: 110px
+      width: 110px;
     }
 
     .membersName {
       margin-top: 20px;
       font-weight: 900;
       font-size: 30px;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
     }
 
     .membersRole {
@@ -237,7 +232,7 @@
     .membersMajor {
       margin-top: 15px;
       font-size: 15px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       margin-bottom: 10px;
       font-style: italic;
     }
@@ -245,7 +240,7 @@
 
   #membersModal {
     img {
-      width: 110px
+      width: 110px;
     }
 
     .membersContact {
@@ -253,22 +248,21 @@
     }
 
     #membersOutlook {
-      width: 30px;
-      height: 30px;
+      width: 20px;
+      height: 20px;
     }
 
     #membersLinkedln {
-      width: 30px;
-      height: 30px;
-      margin-right: 10px;
+      width: 20px;
+      height: 20px;
     }
     .membersName {
       margin-top: 20px;
       font-weight: 900;
       font-size: 30px;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
     }
-    
+
     #membersModalDetails {
       margin-top: 30px;
     }
@@ -281,12 +275,10 @@
       color: #375fb4;
       font-size: 18px;
     }
-
   }
 }
 
 @include media-breakpoint-only(lg) {
-
   #membersSeparator {
     margin-top: 100px;
   }
@@ -301,7 +293,6 @@
   }
 
   #membersContent {
-
     .card {
       height: 350px;
       margin-top: 30px;
@@ -314,14 +305,14 @@
     }
 
     img {
-      width: 120px
+      width: 120px;
     }
 
     .membersName {
       margin-top: 20px;
       font-weight: 900;
       font-size: 32px;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
     }
 
     .membersRole {
@@ -333,7 +324,7 @@
     .membersMajor {
       margin-top: 15px;
       font-size: 15.5px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       margin-bottom: 10px;
       font-style: italic;
     }
@@ -341,7 +332,7 @@
 
   #membersModal {
     img {
-      width: 120px
+      width: 120px;
     }
 
     .membersContact {
@@ -349,23 +340,22 @@
     }
 
     #membersOutlook {
-      width: 30px;
-      height: 30px;
+      width: 20px;
+      height: 20px;
     }
 
     #membersLinkedln {
-      width: 30px;
-      height: 30px;
-      margin-right: 10px;
+      width: 20px;
+      height: 20px;
     }
 
     .membersName {
       margin-top: 20px;
       font-weight: 900;
       font-size: 32px;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
     }
-    
+
     #membersModalDetails {
       margin-top: 30px;
     }
@@ -381,7 +371,7 @@
   }
 }
 
-@include media-breakpoint-only(xl) { 
+@include media-breakpoint-only(xl) {
   #membersSeparator {
     margin-top: 100px;
   }
@@ -396,7 +386,6 @@
   }
 
   #membersContent {
-
     .card {
       height: 380px;
       margin-top: 50px;
@@ -409,14 +398,14 @@
     }
 
     img {
-      width: 120px
+      width: 120px;
     }
 
     .membersName {
       margin-top: 20px;
       font-weight: 900;
       font-size: 35px;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
     }
 
     .membersRole {
@@ -428,7 +417,7 @@
     .membersMajor {
       margin-top: 15px;
       font-size: 16px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       margin-bottom: 30px;
       font-style: italic;
     }
@@ -436,7 +425,7 @@
 
   #membersModal {
     img {
-      width: 120px
+      width: 120px;
     }
 
     .membersContact {
@@ -444,23 +433,22 @@
     }
 
     #membersOutlook {
-      width: 30px;
-      height: 30px;
+      width: 20px;
+      height: 20px;
     }
 
     #membersLinkedln {
-      width: 30px;
-      height: 30px;
-      margin-right: 10px;
+      width: 20px;
+      height: 20px;
     }
 
     .membersName {
       margin-top: 20px;
       font-weight: 900;
       font-size: 35px;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
     }
-    
+
     #membersModalDetails {
       margin-top: 30px;
     }
