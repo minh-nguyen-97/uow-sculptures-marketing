@@ -9,10 +9,6 @@
 }
 
 @media (max-width: 575.98px) {
-  #kanbanSeparator {
-    margin-top: 60px;
-  }
-
   #kanbanContainer {
     margin-top: 60px;
   }
@@ -54,10 +50,6 @@
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  #kanbanSeparator {
-    margin-top: 80px;
-  }
-
   #kanbanContainer {
     margin-top: 80px;
   }
@@ -99,10 +91,6 @@
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  #kanbanSeparator {
-    margin-top: 100px;
-  }
-
   #kanbanContainer {
     margin-top: 100px;
   }
@@ -141,10 +129,6 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  #kanbanSeparator {
-    margin-top: 100px;
-  }
-
   #kanbanContainer {
     margin-top: 100px;
   }
@@ -183,10 +167,6 @@
   }
 }
 @media (min-width: 1200px) {
-  #kanbanSeparator {
-    margin-top: 100px;
-  }
-
   #kanbanContainer {
     margin-top: 100px;
   }
